@@ -1,0 +1,24 @@
+@layer base {
+  :root {
+    --gray-200: #fafafa;
+    --gray-400: #666;
+
+    --text-2xl: 64px;
+
+    --space-8: 32px;
+  }
+}
+
+body {
+  background-color: var(--gray-200);
+  font-family: sans-serif;
+}
+
+div {
+  padding: var(--space-8);
+
+  h1 {
+    color: var(--gray-400);
+    font-size: var(--text-2xl);
+  }
+}
